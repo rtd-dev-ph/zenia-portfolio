@@ -445,3 +445,7 @@ footer {
   flex-wrap: wrap;
   gap: 10px;
 }
+
+.project-links {
+  margin-top: 10px;
+}
