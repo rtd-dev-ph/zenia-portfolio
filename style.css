@@ -406,9 +406,9 @@ h2.section-title {
   max-width: 520px;
   margin: 0 auto 26px;
 }
-.contact-links {
+/* .contact-links {
   display: flex;
-  gap: 26px;
+  gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -417,6 +417,36 @@ h2.section-title {
   font-weight: 600;
   border-bottom: 2px solid var(--accent);
   padding-bottom: 3px;
+  align-items: center;
+  display: flex;
+}
+.contact-links i {
+  width: 20px;
+  text-align: center;
+} */
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  padding: 15px;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 5px 5px;
+
+  color: white;
+  text-decoration: none;
+}
+
+.contact-links i {
+  font-size: 16px;
 }
 .avail-tags {
   display: flex;
