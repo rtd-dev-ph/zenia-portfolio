@@ -187,6 +187,7 @@ nav {
 }
 .btn-secondary:hover {
   border-color: var(--accent-deep);
+  cursor: pointer;
 }
 .badges {
   display: flex;
